@@ -15,4 +15,4 @@ Pipeline registers are inserted between each stage to latch the intermediate res
 
 The pipelined CPU extends the single cycle design with four pipeline registers (IF/ID, ID/IE, IE/MA, MA/WB), a Forwarding_unit, Hazard_unit, additional muxes, and an Adder. 
 
-###Pipeline Register
+## Pipeline Register
