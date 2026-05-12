@@ -21,7 +21,7 @@ Pipelined processor differs from the single cycle one by having additional modul
 
 When a stall is required (load-use hazard), the ID/IE register is zeroed out (bubble insertion), effectively converting the instruction into a NOP that writes nothing and accesses no memory. When a flush is required (branch taken or jump), the IF/ID register is zeroed out, discarding the incorrectly fetched instruction.
 
-### Hazards handling
+# Hazards handling
 
 ### Data hazards 
 Data Hazards occur when an instruction in the IE stage needs a value that hasn't been written back to the register file yet. The Forwarding_unit resolves most data hazards by bypassing values directly from later pipeline stages.
